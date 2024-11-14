@@ -11,6 +11,7 @@ gem "devise-jwt"
 gem "jsonapi-serializer"
 gem "rack-cors"
 gem "dotenv"
+gem "cancancan"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
@@ -36,6 +37,7 @@ gem "bootsnap", require: false
 # gem "rack-cors"
 
 group :development, :test do
+  gem "pry"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
