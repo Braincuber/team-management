@@ -33,5 +33,4 @@ ENV["DEVISE_JWT_SECRET_KEY"]).first
       }, status: :unauthorized
     end
   end
-  before_action :configure_sign_in_params, only: [ :create ]
 end
